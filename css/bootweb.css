@@ -1,0 +1,209 @@
+/* Apply styles to the header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Adjust this color to match your design */
+    z-index: 1000; /* Ensure the header is above other content */
+    
+  }
+  
+ 
+
+.main{
+    background-image: linear-gradient(to right, hsl(348, 75%, 80%), #e32e3d);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.new >p{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.b > p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    box-shadow: 5px  5px  10px  rgb(255, 255, 255);
+    transition: transform 0.3s , box shadow 0.5s;
+}
+
+.logo:hover{
+    transform: scale(1);
+    box-shadow: 0px  0px  0px  rgb(255, 255, 255);
+}
+
+.z{
+    width: 300px;
+    height: 600px;
+    position: relative;
+    top: 50px;
+}
+
+.new{
+    align-self: center;
+    font-weight: bolder;
+    font-size: 40px;
+  
+}
+
+.d-flex{
+    left: 40px;
+}
+
+.sec{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/*.A{
+    background-color: antiquewhite;
+    padding: 30px;
+} */
+
+span{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.para{
+    margin-top: 20px;
+   text-align: center;
+}
+
+.paraimg{
+    height: 90px;
+    margin-left: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.paraimg:hover {
+    transform: scale(2.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.main2{
+    padding: 150px;
+    background-color: rgb(237, 115, 115);
+}
+
+
+.p1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+.main3{
+    padding: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ba{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.b1 {
+    width: 300px;
+    height: 200px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .b1:hover {
+    transform: scale(1.05);
+    box-shadow: 50px 50px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+
+.b2{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    bottom: 50px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+.b2:hover {
+    transform: scale(1.05);
+    box-shadow: 50px 50px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.b3{
+    width: 300px;
+    height: 150px;
+    position: relative;
+    bottom: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+.b3:hover {
+    transform: scale(1.05);
+    box-shadow:   50px 50px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.b4 {
+    width: 300px;
+    height: 150px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+
+}
+.b4:hover {
+    transform: scale(1.05);
+    box-shadow: 50px 50px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.w{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.span2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.main4{
+    padding: 100px;
+    background-color: rgb(237, 115, 115);
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+/* Apply styles to the card body when hovering over the entire card */
+.wewe:hover  {
+     /* Change background color */
+    transform: scale(1.05); /* Slightly scale up the card */
+  }
+  
+  /* You can add transitions for smoother effects */
+  .wewe {
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+
+
